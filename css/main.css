@@ -265,17 +265,22 @@ hr {
   margin: 0 20px;
 }
 
-#contact .social i.fa, #contact1 .social1 i.fa {
+.letter {
+  color: #822b81;
+}
+
+.red {
   font-size: 30px;
-  padding: 4px 5px;
-  color: #fff;
   transition: all 0.5s;
 }
 
-#contact .social i.fa:hover, #contact1 .social1 i.fa:hover {
-  color: #121d1f;
+.red:hover {
+  color: black;
 }
 
+.thumbnail {
+  box-shadow: 5px 5px 5px #822b81;
+}
 /* Footer Section*/
 
 #footer {
