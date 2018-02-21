@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  line-height: 20px;
+  line-height: 1.2;
   margin: 0;
   color: #444;
   font-weight: 400;
@@ -278,6 +278,10 @@ hr {
   color: black;
 }
 
+.mail {
+  font-size: 12pt;
+}
+
 .thumbnail {
   box-shadow: 5px 5px 5px #822b81;
 }
@@ -329,6 +333,11 @@ hr {
   }
 }
 
+@media (max-width: 320px) {
+  .redso {
+    font-size:9pt;
+  }
+}
 @media (max-width: 1024px) {
   #about img {
     float: left;
