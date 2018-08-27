@@ -284,9 +284,12 @@ hr {
 }
 
 .thumbnail {
-  box-shadow: 5px 5px 5px #822b81;
+  box-shadow: 0px 5px 12px rgba(217, 226, 233, 0.5);
 }
 
+.lines-menu {
+  color: white;
+}
 /* Footer Section*/
 
 #footer {
